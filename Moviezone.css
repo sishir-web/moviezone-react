@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+button{
+    font-weight: bolder; 
+}
+
+.jpt:hover .overlay{
+transform: scale(1.02,1.02);
+opacity: 1;
+}
+img:hover{
+    transform: scale(1.02,1.02); 
+}
+img{
+    transition: .1s ease-in-out;
+}
+.overlay {
+      position: relative;
+        color: #f1f1f1;
+        width: 100%;
+        transition: .2s ease;
+        opacity:1;
+        color: white;
+        font-size: 20px;
+      }
